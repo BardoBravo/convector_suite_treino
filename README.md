@@ -508,7 +508,7 @@ npm test
 ```
 
 ## Configurando o Smart Contract
-Nesse momento, faremos a excução de nossa aplicação contra a blockchain. Porém, antes é necessário fazer alguns ajustes no arquivo **config.json**:
+Nesse momento, faremos a excução de nossa aplicação contra a blockchain. Porém, antes é necessário fazer alguns ajustes no arquivo **person.config.json**:
 ``` javascript
 //..
  "controllers": [
