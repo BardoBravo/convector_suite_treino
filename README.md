@@ -336,7 +336,7 @@ npx lerna add chai-as-promised -D --scope person-cc  --include-filtered-dependen
 npx lerna add @types/chai-as-promised -D --scope person-cc  --include-filtered-dependencies
 ```
 
-Agora,vamos alterar o código de testes da classe **Person**:
+Agora,vamos alterar o código de testes da classe **person.spec.ts**:
 ``` javascript
 // tslint:disable:no-unused-expression
 import { join } from 'path';
