@@ -184,7 +184,8 @@ export class Participant extends ConvectorModel<Participant> {
 Nós vamos precisar de um array **Atributos** dentro do modelo **Person**. Os atributos serão preenchidos pelos **Network Participant**.
 
 **person.model.ts**
-´´´ javascript
+
+``` javascript
 import * as yup from 'yup';
 import {
   ConvectorModel,
@@ -236,7 +237,7 @@ export class Person extends ConvectorModel<Person> {
 O controller é onde a lógica do smart contract realmente ocorre, operando a criação de pessoas e adição de atributos.
 
 **person.controllers.ts**
-``` javascript
+```javascript
 import * as yup from 'yup';
 import { ChaincodeTx } from '@worldsibu/convector-platform-fabric';
 import {
@@ -331,6 +332,7 @@ Antes de executarmos contra nossa blockchain, vamos verificar a lógica do proce
 Primeiro, vamos instalar o package **chai-as-promised**:
 ```
 npx lerna add chai-as-promised -D --scope person-cc  --include-filtered-dependencies
+
 npx lerna add @types/chai-as-promised -D --scope person-cc  --include-filtered-dependencies
 ```
 
